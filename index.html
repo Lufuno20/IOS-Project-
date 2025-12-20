@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Page title -->
+    <title>WebXR iOS Integration Demo</title>
+
+    <!-- Mobile-friendly viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div id="overlay">
+        <button onclick="startAnimation()">Start</button>
+        <button onclick="resetScene()">Reset</button>
+
+        <!-- Status text updated by JS or iOS -->
+        <p id="status">Waiting for native message…</p>
+    </div>
+
+    <!-- Three.js core library -->
+    <script src="https://unpkg.com/three@0.158.0/build/three.min.js"></script>
+
+    <!-- Main application logic -->
+    <script src="script.js"></script>
+</body>
+</html>

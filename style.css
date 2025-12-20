@@ -1,0 +1,35 @@
+/* Remove default browser spacing */
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/*
+  Overlay container
+  Mimics a native overlay inside a WKWebView
+*/
+#overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Buttons */
+button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Status text */
+#status {
+    margin-top: 8px;
+    font-size: 14px;
+}
