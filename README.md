@@ -6,7 +6,7 @@ This project demonstrates a responsive WebXR-style AR experience built using HTM
 Due to hardware limitations, the iOS implementation is provided as a technical design rather than a compiled app.
 
 ## Live Demo
-[INSERT NETLIFY LINK HERE]
+https://3d-ios-project.netlify.app/
 
 ## Features
 - Responsive layout (mobile & desktop)
