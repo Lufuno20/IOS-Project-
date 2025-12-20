@@ -3,7 +3,6 @@
 
 ## Overview
 This project demonstrates a responsive WebXR-style AR experience built using HTML, CSS, JavaScript, and Three.js. The application simulates object placement and interaction similar to mobile AR experiences.
-
 Due to hardware limitations, the iOS implementation is provided as a technical design rather than a compiled app.
 
 ## Live Demo
